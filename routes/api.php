@@ -16,3 +16,19 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::group(['prefix' => 'Api'], function () {
+
+    Route::group(['prefix' => 'Data'], function () {
+
+        Route::post('/commit', 'DataController@commit');
+
+        Route::get('/status', 'DataController@status');
+
+    });
+
+    Route::post('/sss', 'DataController@sss');
+
+    Route::get('/alldata', 'DataController@alldata');
+
+});
