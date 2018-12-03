@@ -1,6 +1,7 @@
 <?php
 namespace App\Http\Controllers\Api;
 use Illuminate\Routing\Controller as BaseController;
+use Illuminate\Support\Facades\Log;
 use Symfony\Component\HttpFoundation\Request;
 
 /**
@@ -12,6 +13,7 @@ use Symfony\Component\HttpFoundation\Request;
 class DataController extends BaseController
 {
     public static function status(Request $request){
+        Log::info('123', '123');
         return view('api.welcome');
     }
 }
