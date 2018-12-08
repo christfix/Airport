@@ -1,19 +1,17 @@
 <?php
-namespace App\Http\Controllers\Api;
-use Illuminate\Routing\Controller as BaseController;
-use Illuminate\Support\Facades\Log;
-use Symfony\Component\HttpFoundation\Request;
-
 /**
  * Created by PhpStorm.
  * User: jiangminghui
  * Date: 2018/12/3
  * Time: 下午7:39
  */
-class DataController extends BaseController
+namespace App\Http\Controllers\Api\Data;
+use App\Http\Controllers\Controller;
+use App\Http\Services\Api\DataServices;
+class DataController extends Controller
 {
-    public static function status(Request $request){
-        Log::info('123', '123');
-        return view('api.welcome');
+    public static function status(){
+        $data['time'] = DataServices::returnData();
+        return view('api.welcome' , $data);
     }
 }

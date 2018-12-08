@@ -78,7 +78,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel HaHa NiuX
+                    HaHa NiuX MH
+                    @if(isset($time))
+                        {{$time}}
+                    @endif
                 </div>
 
             </div>
