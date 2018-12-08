@@ -82,6 +82,9 @@
                     @if(isset($time))
                         {{$time}}
                     @endif
+                    @if(isset($id))
+                        {{$id}}
+                    @endif
                 </div>
 
             </div>
