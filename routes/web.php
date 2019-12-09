@@ -1,5 +1,5 @@
 <?php
-
+use Log;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +12,7 @@
 */
 
 Route::get('/', function () {
+    Log::info("indexsd", []);
     return view('welcome');
 });
 Route::get('hello', function () {

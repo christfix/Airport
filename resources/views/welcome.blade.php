@@ -63,35 +63,76 @@
             }
         </style>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143237304-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-143237304-1');
+</script>
+
         <script type="text/javascript">
-            var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1276632202'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s23.cnzz.com/z_stat.php%3Fid%3D1276632202%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));
+var _cnzzt = _cnzzt || [];
+(function() {
+  var cnzz = document.createElement("script");
+  cnzz.src = "https://s23.cnzz.com/z_stat.php?id=1276632202&web_id=1276632202";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(cnzz, s);
+})();
+setTimeout("sq()", 500);
+var _hmt = _hmt || [];
+function sq(){
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?10a64fe6901ea7d51cc709e05d74f7f3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+};
+//setTimeout("location.href='https://weibo.com/u/5279395008'", 8000);
         </script>
+<!-- Global site tag (gtag.js) - Google Marketing Platform -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=DC-9347708"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'DC-9347708');
+</script>
+<!-- 全局代码段的结尾：请勿移除 -->
+<script>
+  function ana(){
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-9347708/mq/ln_fc0+standard'
+  });}
+  gtag('event', 'conversion', {
+    'allow_custom_scripts': true,
+    'send_to': 'DC-9347708/mq/ifrea0+standard'
+  });
+</script>
+<noscript>
+<img src="https://ad.doubleclick.net/ddm/activity/src=9347708;type=mq;cat=ln_fc0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;npa=;ord=1?" width="1" height="1" alt=""/>
+</noscript>
+
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-                        <a href="{{ route('register') }}">Register</a>
-                    @endauth
-                </div>
-            @endif
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    HaHa niu X
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/52316266" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/80943332" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/78875937" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/78439155" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/78438941" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/52336162" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/52329822" onclick="ana()">GitHub</a>
                 </div>
             </div>
         </div>
