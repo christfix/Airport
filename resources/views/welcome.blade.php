@@ -126,13 +126,9 @@ function sq(){
                 </div>
 
                 <div class="links">
+                    <a href="https://blog.csdn.net/xla9071352/article/details/103863293" onclick="ana()">GitHub</a>
                     <a href="https://blog.csdn.net/xla9071352/article/details/52316266" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/80943332" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/78875937" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/78439155" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/78438941" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/52336162" onclick="ana()">GitHub</a>
-                    <a href="https://blog.csdn.net/xla9071352/article/details/52329822" onclick="ana()">GitHub</a>
+                    <a href="https://blog.csdn.net/xla9071352/article/details/82505193" onclick="ana()">GitHub</a>
                 </div>
             </div>
         </div>
